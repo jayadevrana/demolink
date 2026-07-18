@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>demolink — it works! 🎉</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        margin: 0; min-height: 100vh; display: grid; place-items: center;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: radial-gradient(1200px 600px at 50% -10%, #4f46e5, #0b1020);
+        color: #f8fafc;
+      }
+      .card {
+        text-align: center; padding: 3rem 2.5rem; border-radius: 20px;
+        background: rgba(255,255,255,0.06); backdrop-filter: blur(8px);
+        box-shadow: 0 20px 60px rgba(0,0,0,0.35); max-width: 32rem;
+      }
+      h1 { font-size: 2.25rem; margin: 0 0 0.5rem; }
+      p { opacity: 0.85; line-height: 1.6; }
+      code { background: rgba(255,255,255,0.12); padding: 0.15rem 0.45rem; border-radius: 6px; }
+      .badge { display:inline-block; margin-top:1rem; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; opacity:.6; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>🎉 Your demo is live</h1>
+      <p>
+        This page is being served from <code>localhost</code> on your machine and
+        published to the public URL you're viewing right now — by
+        <strong>demolink</strong>.
+      </p>
+      <p>Replace this folder with your own site and re-run <code>demolink</code>.</p>
+      <span class="badge">powered by demolink</span>
+    </div>
+  </body>
+</html>

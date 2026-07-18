@@ -1,0 +1,25 @@
+node_modules/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+.next/
+out/
+*.log
+.DS_Store
+*.sqlite
+*.db
+
+# macOS AppleDouble / metadata files (created on non-HFS volumes like this one)
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# demolink writes user config + a cached cloudflared binary here:
+.demolink/

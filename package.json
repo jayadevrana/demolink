@@ -1,0 +1,36 @@
+{
+  "name": "demolink",
+  "version": "0.1.0",
+  "description": "Publish your localhost website to a public, random URL in one command — instant Cloudflare quick tunnels, plus optional branded subdomains on a free DigitalPlat FreeDomain (dpdns.org, us.kg, ...).",
+  "type": "module",
+  "bin": {
+    "demolink": "bin/demolink.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demolink": "node bin/demolink.js"
+  },
+  "keywords": [
+    "tunnel",
+    "localhost",
+    "ngrok",
+    "cloudflare",
+    "cloudflared",
+    "freedomain",
+    "dpdns",
+    "demo",
+    "expose",
+    "share"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
